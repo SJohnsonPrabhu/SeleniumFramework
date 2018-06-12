@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+      <class name="tests.Sanity">
+        <test-method status="PASS" signature="add()[pri:0, instance:tests.Sanity@4bbfb90a]" name="add" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:tests.Sanity@4bbfb90a]" name="div" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:tests.Sanity@4bbfb90a]" name="multi" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:tests.Sanity@4bbfb90a]" name="sub" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- tests.Sanity -->
+      <class name="tests.TestPrimer">
+        <test-method status="PASS" signature="add()[pri:0, instance:tests.TestPrimer@7494e528]" name="add" duration-ms="4" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="div()[pri:0, instance:tests.TestPrimer@7494e528]" name="div" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:tests.TestPrimer@7494e528]" name="sub" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:tests.TestPrimer@7494e528]" name="multi" duration-ms="0" started-at="2018-06-11T05:57:24Z" finished-at="2018-06-11T05:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+      </class> <!-- tests.TestPrimer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

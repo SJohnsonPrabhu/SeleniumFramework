@@ -1,0 +1,17 @@
+apps/desktopApp/homePage/HomeUiElements.class
+base/managers/OR.class
+base/managers/Timer.class
+base/managers/Logger.class
+base/managers/UiLocators.class
+apps/desktopApp/DesktopApp.class
+reports/ExtentReports.class
+apps/desktopApp/homePage/Home.class
+reports/Screenshot.class
+apps/desktopApp/login/LoginUiElements.class
+base/managers/UiElements.class
+apps/desktopApp/login/Login.class
+utils/TestUtils.class
+base/managers/DriverManager.class
+apps/desktopApp/Apps.class
+executor/Executor.class
+controller/Controller.class
