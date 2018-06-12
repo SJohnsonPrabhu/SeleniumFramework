@@ -1,42 +1,27 @@
 package tests;
 
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
+import linker.apps.desktopApp.DesktopApp;
+import linker.controller.Controller;
 
 public class Sanity {
 	
-	@Test
-	public void add() {
-		System.out.println("ADD");
-		int a = 10;
-		int b = 20;
-		AssertJUnit.assertEquals(30, a + b);
+	private static DesktopApp desktopApp = Controller.app.desktopApp;
+	
+	@Test (priority=0)
+	public void enterTheUsername() {
+		desktopApp.loginPage.uiObject.username().sendKeys(Controller.prop.getProperty("username"));
+	}
+	
+	@Test (priority=1)
+	public void enterThePassword() {
+		desktopApp.loginPage.uiObject.password().sendKeys(Controller.prop.getProperty("password"));
 	}
 
-	@Test
-	public void sub() {
-		System.out.println("SUB");
-		int a = 10;
-		int b = 20;
-		AssertJUnit.assertEquals(-10, a - b);
-	}
-
-	@Test
-	public void multi() {
-		System.out.println("MULTI");
-		int a = 10;
-		int b = 20;
-		AssertJUnit.assertEquals(200, a * b);
-	}
-
-	@Test
-	public void div() {
-		System.out.println("DIV");
-		int a = 30;
-		int b = 10;
-		AssertJUnit.assertEquals(3, a / b);
+	@Test (priority=2)
+	public void clickLogin() {
+		desktopApp.loginPage.clickLoginButton();
 	}
 
 }
